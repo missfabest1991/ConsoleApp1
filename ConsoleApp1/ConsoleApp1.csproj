@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Alligator.cs" />
+    <Compile Include="Classes\BaldEagle.cs" />
+    <Compile Include="Animal.cs" />
+    <Compile Include="Enum\AnimalType.cs" />
+    <Compile Include="Interfaces\IAlligator.cs" />
+    <Compile Include="Interfaces\IBase.cs" />
+    <Compile Include="Interfaces\IEagle.cs" />
+    <Compile Include="Interfaces\IMoose.cs" />
+    <Compile Include="Classes\Moose.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
